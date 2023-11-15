@@ -1,0 +1,15 @@
+SELECT chdb();
+
+0.015123405028134584
+0.014184164814651012
+0.013753133825957775
+SELECT count(*) FROM url('https://shell.duckdb.org/data/tpch/0_01/parquet/lineitem.parquet');
+
+0.39646190823987126
+0.07824201416224241
+0.07905672071501613
+SELECT toYYYYMMDD(tpep_pickup_datetime) as day, uniqHLL12(PULocationID) as locations, count(*) as trips, sum(fare_amount) + sum(mta_tax) + sum(tolls_amount) + sum(tip_amount) as revenue FROM url('https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet') WHERE trip_distance > 5 GROUP BY toYYYYMMDD(tpep_pickup_datetime) ORDER BY day;
+
+1.7266972730867565
+3.1142248730175197
+0.9240321731194854
