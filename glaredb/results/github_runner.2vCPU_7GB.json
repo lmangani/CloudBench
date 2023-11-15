@@ -3,7 +3,7 @@
     "date": "2023-11-15",
     "machine": "github_runner 2vCPU_7GB",
     "cluster_size": "serverless",
-    "comment": "",
+    "comment": "latest",
     "tags": ["C++", "column-oriented", "ClickHouse derivative", "embedded", "github"],
     "load_time": 0,
     "data_size": 0,
