@@ -1,0 +1,14 @@
+{
+    "system": "glaredb",
+    "date": "2023-11-15",
+    "machine": "github_runner 2vCPU_7GB",
+    "cluster_size": "serverless",
+    "comment": "",
+    "tags": ["C++", "column-oriented", "ClickHouse derivative", "embedded", "github"],
+    "load_time": 0,
+    "data_size": ,
+    "result": [
+      [0.004663847999992754,0.0031284040000088,0.003115797000006637], [0.28790816100000427,0.10312681700000326,0.10320078200000182], [0.6838684350000079,0.5092439000000013,0.5392231339999967]
+    ]
+}
+
