@@ -1,4 +1,4 @@
-# ClickEmBench: a Benchmark For Embedded Analytical Databases
+# CloudBench: a Benchmark For Embedded Analytical Databases
 
 https://benchmark.clickhouse.com/
 
