@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: true
-      max-parallel: 5
+      max-parallel: 1
       matrix:
         DBNAME: [ "chdb", "duckdb", "glaredb", "databend", "datafusion" ]
   
