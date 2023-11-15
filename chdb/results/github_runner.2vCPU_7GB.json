@@ -1,0 +1,14 @@
+{
+    "system": "chdb",
+    "date": "2023-11-15",
+    "machine": "github_runner 2vCPU_7GB",
+    "cluster_size": "serverless",
+    "comment": "23.10.1.1",
+    "tags": ["C++", "column-oriented", "ClickHouse derivative", "embedded", "github"],
+    "load_time": 0,
+    "data_size": ,
+    "result": [
+      [0.009747687000000838,0.0093636379999964,0.009263240000009887], [0.3244022199999961,0.09373053799998843,0.07238689499999396], [0.5493372170000015,0.4154642949999925,0.40278327500000444]
+    ]
+}
+
