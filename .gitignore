@@ -1,0 +1,4 @@
+**/*.parquet
+**/.databend
+**/.chdb
+*.bak
