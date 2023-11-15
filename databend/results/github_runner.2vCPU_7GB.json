@@ -1,0 +1,14 @@
+{
+    "system": "databend",
+    "date": "2023-11-15",
+    "machine": "github_runner 2vCPU_7GB",
+    "cluster_size": "serverless",
+    "comment": "latest",
+    "tags": ["C++", "column-oriented", "ClickHouse derivative", "embedded", "github"],
+    "load_time": 0,
+    "data_size": ,
+    "result": [
+      [0.027175059000001056,0.0009610779999889019,0.0008338410000021668], [0.21741860800000268,0.09219371200001092,0.07742121199999019], [0.9415982000000156,0.8663947200000166,0.8520855479999909]
+    ]
+}
+

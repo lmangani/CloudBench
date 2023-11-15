@@ -1,18 +1,15 @@
 SELECT version();
 
-0.0014341743662953377
-0.0003664577379822731
-0.00030307378619909286
-
+0.027175059000001056
+0.0009610779999889019
+0.0008338410000021668
 SELECT count(*) FROM 'https://shell.duckdb.org/data/tpch/0_01/parquet/lineitem.parquet';
 
-0.13562232116237283
-0.17224850226193666
-0.17346075968816876
+0.21741860800000268
+0.09219371200001092
+0.07742121199999019
+SELECT TO_DATE(tpep_pickup_datetime::date) as day, PULocationID as location, count(*) as trips, sum(fare_amount) + sum(mta_tax) + sum(tolls_amount) + sum(tip_amount) as revenue FROM 'https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet' WHERE trip_distance > 5 GROUP BY tpep_pickup_datetime, location ORDER BY day;
 
-SELECT arrow_typeof(tpep_pickup_datetime::date) as day, "PULocationID" as location,  count(*) as trips, sum(fare_amount) + sum(mta_tax) + sum(tolls_amount) + sum(tip_amount) as revenue FROM 'https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet' WHERE trip_distance > 5 GROUP BY tpep_pickup_datetime, location ORDER BY day;
-
-0.9286898067221045
-0.8619628739543259
-1.0288566458038986
-
+0.9415982000000156
+0.8663947200000166
+0.8520855479999909
